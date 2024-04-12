@@ -10,8 +10,8 @@ application=Flask(__name__)
 app=application
 
 # import ridge regressor model and standard scaler pickle
-ridge_model=pickle.load(open('models/ridge_project.pkl', 'rb'))
-standard_scaler=pickle.load(open('models/scaler_project.pkl', 'rb'))
+ridge_model=pickle.load(open('Models/ridge_project.pkl', 'rb'))
+standard_scaler=pickle.load(open('Models/scaler_project.pkl', 'rb'))
 
 # route for homepage
 @app.route('/')
